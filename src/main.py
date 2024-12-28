@@ -2,6 +2,7 @@ import tkinter
 import sqlite3
 import input
 
+
 class PESOurce():
     connection = None
     cursor = None
@@ -25,6 +26,7 @@ class PESOurce():
         connection = connection
         cursor = cursor
 
+
     def main(self):
         print("************************")
         print("* Welcome to PESOurce. *")
@@ -35,6 +37,7 @@ class PESOurce():
         print('4. Visualize Spending\n')
         choice = input.get_input()
 
+        
 if __name__ == '__main__':
     program = PESOurce()
     program.main()
